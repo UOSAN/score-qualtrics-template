@@ -27,7 +27,7 @@ fi
 Define variables and paths
 --------------------------
 
--   `cred_file_location` = path to your Qualtrics credential file. You'll need to generate this via Qualtrics using the instructios above.
+-   `cred_file_location` = path to your Qualtrics credential file. You'll need to generate this via Qualtrics using the instructions above.
 -   `id_column_name` = subject ID column name in Qualtrics survey; can be a regular expression
 
 ``` r
@@ -94,7 +94,7 @@ Cleaning and scoring data
 
 ### Get survey data
 
-The `get_survey_data` funcion pulls the data from the surveys specified in `surveysFiltered` and reshapes into the long format. Because the example data also includes some identifying information, we also want to filter those items out of our dataframe.
+The `get_survey_data` function pulls the data from the surveys specified in `surveysFiltered` and reshapes into the long format. Because the example data also includes some identifying information, we also want to filter those items out of our dataframe.
 
 ``` r
 # get data
