@@ -53,7 +53,7 @@ sid_column_name = '(Login)'
 survey_name_filter = 'DEV Session.* Surveys'
 sid_pattern = 'DEV[0-9]{3}'
 exclude_sid = '(DEV999|test)' # subject IDs to exclude
-identifiableData = c('IPAddress', 'RecipientLastName', 'RecipientFirstName', 'RecipientEmail',	'ExternalReference', 'LocationLatitude',	'LocationLongitude') # exclude when printing duplicates
+identifiableData = c('IPAddress', 'RecipientLastName', 'RecipientFirstName', 'RecipientEmail', 'ExternalReference', 'LocationLatitude', 'LocationLongitude') # exclude when printing duplicates
 output_file_dir = '~/Documents/code/score-qualtrics/'
 rubric_dir = '~/Documents/code/score-qualtrics/rubrics'
 ```
